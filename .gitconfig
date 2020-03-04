@@ -1,18 +1,18 @@
 [user]
-	name = Tim Bryan
-	email = timsb@users.noreply.github.com
+  name = Tim Bryan
+  email = timsb@users.noreply.github.com
 [credential]
-	helper = cache
+  helper = cache
 [core]
-	autocrlf = input
-	whitespace = trailing-space,space-before-tab
-    pager = less -M +Gg
+  autocrlf = input
+  whitespace = trailing-space,space-before-tab
+  pager = less -M +Gg
 [color]
-	ui = auto
+  ui = auto
 [color "diff-highlight"]
-    oldNormal = "red bold"
-    oldHighlight = "red bold 52"
-    newNormal = "green bold"
-    newHighlight = "green bold 22"
+  oldNormal = "red bold"
+  oldHighlight = "red bold 52"
+  newNormal = "green bold"
+  newHighlight = "green bold 22"
 [diff]
-	renames = copies
+  renames = copies
