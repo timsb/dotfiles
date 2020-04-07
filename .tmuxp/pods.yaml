@@ -1,0 +1,22 @@
+session_name: pods
+suppress_history: false
+windows:
+    - window_name: prototype
+      layout: even-vertical
+      shell_command_before:
+          - cd $WORKSPACE/mrps-prototype/
+      panes:
+          - shell_command:
+              - npm start
+          - blank
+    - window_name: dev
+      layout: even-vertical
+      shell_command_before:
+          - cd $WORKSPACE/pensions-scheme-frontend/
+      panes:
+          - shell_command:
+              - sm -s
+              - sm --start PODS_ALL -f
+              - sm --stop PENSIONS_SCHEME_FRONTEND
+              - sbt "run 8200"
+          - blank
