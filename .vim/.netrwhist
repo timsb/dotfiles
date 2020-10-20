@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/timbryan/.vim/swaps'
+let g:netrw_dirhist_4='/Users/timbryan/.vim'
+let g:netrw_dirhist_3='/Users/timbryan/.vim/pack/plugins/start/vim-json'
+let g:netrw_dirhist_2='/Users/timbryan/.vim'
+let g:netrw_dirhist_1='/Users/timbryan/.vim/pack/plugins/start/Vim-Jinja2-Syntax'
+let g:netrw_dirhist_0='/Users/timbryan/.vim/backups'
+let g:netrw_dirhist_9='/Users/timbryan/.vim/pack/plugins/start'
+let g:netrw_dirhist_8='/Users/timbryan/.vim/pack/plugins'
+let g:netrw_dirhist_7='/Users/timbryan/.vim/pack'
+let g:netrw_dirhist_6='/Users/timbryan/.vim'
